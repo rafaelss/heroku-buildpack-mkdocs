@@ -2,3 +2,5 @@
 BUILD_DIR=$1
 
 test -f $BUILD_DIR/mkdocs.yml || { echo "The mkdocs.yml was not found"; exit 1; }
+
+echo MkDocs
