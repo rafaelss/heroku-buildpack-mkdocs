@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+test -f $1/mkdocs.yml || { echo "The mkdocs.yml was not found"; exit 1; }
