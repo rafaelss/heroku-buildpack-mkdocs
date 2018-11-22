@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+BUILD_DIR=$1
 
-mkdocs build
+mkdocs build -c -f $BUILD_DIR/mkdocs.yml

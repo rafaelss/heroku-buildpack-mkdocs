@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-test -f $1/mkdocs.yml || { echo "The mkdocs.yml was not found"; exit 1; }
+BUILD_DIR=$1
+
+test -f $BUILD_DIR/mkdocs.yml || { echo "The mkdocs.yml was not found"; exit 1; }
